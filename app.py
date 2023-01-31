@@ -73,7 +73,3 @@ def get_parameters():
     print(result[0])
     return json.dumps(result[0], default=str)
     # return parameters
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
