@@ -19,7 +19,9 @@ parameters = []
 @cross_origin()
 def get_parameters():
     age = int(request.json['Age'])
+    print(age)
     SysBP = int(request.json['SysBP'])
+    print(SysBP)
     DiaBP = float(request.json['DiaBP'])
     HR = int(request.json['HR'])
     Glucose = int(request.json['Glucose'])
@@ -72,4 +74,4 @@ def get_parameters():
     parameters.clear()
     print(result[0])
     return json.dumps(result[0], default=str)
-    # return parameters
+    # return parameter
