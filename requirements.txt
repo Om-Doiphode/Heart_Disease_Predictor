@@ -59,3 +59,4 @@ wikipedia==1.4.0
 yarg==0.1.9
 zipp==3.11.0
 zmq==0.0.0
+setuptools_rust==1.5.2
