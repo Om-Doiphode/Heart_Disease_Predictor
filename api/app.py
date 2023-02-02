@@ -49,5 +49,5 @@ def get_parameters():
     return json.dumps(result[0], default=str)
     # return parameter
 
-    if __name__=='__main__:
-        app.run()
+if __name__=='__main__':
+    app.run()
